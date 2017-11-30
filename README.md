@@ -1,12 +1,10 @@
 Foodsoft
 =========
-[![Build Status](https://travis-ci.org/foodcoops/foodsoft.svg?branch=master)](https://travis-ci.org/foodcoops/foodsoft)
-[![Coverage Status](https://coveralls.io/repos/foodcoops/foodsoft/badge.svg?branch=master)](https://coveralls.io/r/foodcoops/foodsoft?branch=master)
-[![Docs Status](https://inch-ci.org/github/foodcoops/foodsoft.svg?branch=master)](http://inch-ci.org/github/foodcoops/foodsoft)
-[![Code Climate](https://codeclimate.com/github/foodcoops/foodsoft.svg)](https://codeclimate.com/github/foodcoops/foodsoft)
-[![Dependency Status](https://gemnasium.com/foodcoops/foodsoft.svg)](https://gemnasium.com/foodcoops/foodsoft)
-[![Docker Status](https://img.shields.io/docker/build/foodcoops/foodsoft.svg)](https://hub.docker.com/r/foodcoops/foodsoft)
-[![Documentation](https://img.shields.io/badge/yard-docs-blue.svg)](http://rubydoc.info/github/foodcoops/foodsoft)
+[![Build Status](https://travis-ci.org/MySolace/foodsoft.svg?branch=master)](https://travis-ci.org/MySolace/foodsoft)
+[![Coverage Status](https://coveralls.io/repos/MySolace/foodsoft/badge.svg?branch=master)](https://coveralls.io/r/MySolace/foodsoft?branch=master)
+[![Docs Status](https://inch-ci.org/github/MySolace/foodsoft.svg?branch=master)](http://inch-ci.org/github/MySolace/foodsoft)
+[![Dependency Status](https://gemnasium.com/MySolace/foodsoft.svg)](https://gemnasium.com/MySolace/foodsoft)
+[![Documentation](https://img.shields.io/badge/yard-docs-blue.svg)](http://rubydoc.info/github/MySolace/foodsoft)
 
 Web-based software to manage a non-profit food coop (product catalog, ordering, accounting, job scheduling).
 
