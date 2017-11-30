@@ -1,5 +1,6 @@
 Foodsoft
 =========
+[![Build Status](https://semaphoreci.com/api/v1/mysolace/foodsoft/branches/master/shields_badge.svg)](https://semaphoreci.com/mysolace/foodsoft)
 [![Build Status](https://travis-ci.org/foodcoops/foodsoft.svg?branch=master)](https://travis-ci.org/foodcoops/foodsoft)
 [![Coverage Status](https://coveralls.io/repos/foodcoops/foodsoft/badge.svg?branch=master)](https://coveralls.io/r/foodcoops/foodsoft?branch=master)
 [![Docs Status](https://inch-ci.org/github/foodcoops/foodsoft.svg?branch=master)](http://inch-ci.org/github/foodcoops/foodsoft)
