@@ -13,7 +13,7 @@ build:
     # http://devcenter.wercker.com/docs/steps/index.html
     steps:
         - bundle-install
-        - rake
         - script:
-            name: rspec
-            code: bundle exec rspec
+            name: 
+              rake:
+                code: bundle exec rake
