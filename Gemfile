@@ -1,39 +1,39 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
-gem "rails", '~> 4.2'
+gem "rails", "~> 5.2", ">= 5.2.4.2"
 
 
-gem 'sass-rails'
-gem 'less-rails'
+gem 'sass-rails', '>= 5.0.6'
+gem 'less-rails', '>= 3.0.0'
 gem 'uglifier', '>= 1.0.3'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 gem 'therubyracer', platforms: :ruby
 
 
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.3.1'
 gem 'select2-rails'
-gem 'rails_tokeninput'
-gem 'bootstrap-datepicker-rails'
+gem 'rails_tokeninput', '>= 1.7.0'
+gem 'bootstrap-datepicker-rails', '>= 1.7.1.1'
 gem 'date_time_attribute'
 gem 'rails-assets-listjs', '0.2.0.beta.4' # remember to maintain list.*.js plugins and template engines on update
 gem 'i18n-js', '~> 3.0.0.rc8'
-gem 'rails-i18n'
+gem 'rails-i18n', '>= 5.0.0'
 
 gem 'mysql2'
 gem 'prawn'
 gem 'prawn-table'
 gem 'haml', '~> 4.0' # some breaking changes in version 5, remove this line again when fixed
-gem 'haml-rails'
-gem 'kaminari'
-gem 'simple_form'
-gem 'inherited_resources'
+gem 'haml-rails', '>= 1.0.0'
+gem 'kaminari', '>= 1.1.1'
+gem 'simple_form', '>= 4.0.0'
+gem 'inherited_resources', '>= 1.9.0'
 gem 'localize_input', git: "https://github.com/bennibu/localize_input.git"
 gem 'daemons'
 gem 'twitter-bootstrap-rails', '~> 2.2.8'
 gem 'simple-navigation', '~> 3.14.0' # 3.x for simple_navigation_bootstrap
-gem 'simple-navigation-bootstrap'
-gem 'ransack'
+gem 'simple-navigation-bootstrap', '>= 1.0.2'
+gem 'ransack', '>= 1.8.4'
 gem 'acts_as_tree'
 gem 'rails-settings-cached', '= 0.4.3' # caching breaks tests until Rails 5 https://github.com/huacnlee/rails-settings-cached/issues/73
 gem 'resque'
@@ -43,12 +43,12 @@ gem 'protected_attributes', '= 1.1.0' # 1.1.0 until tests work work with higher 
 gem 'ruby-units'
 gem 'attribute_normalizer'
 gem 'ice_cube'
-gem 'recurring_select'
+gem 'recurring_select', '>= 2.0.0'
 gem 'roo'
 gem 'roo-xls'
 gem 'spreadsheet'
-gem 'exception_notification'
-gem 'gaffe'
+gem 'exception_notification', '>= 4.2.2'
+gem 'gaffe', '>= 1.2.0'
 gem 'ruby-filemagic'
 gem 'midi-smtp-server'
 
@@ -67,7 +67,7 @@ gem 'foodsoft_discourse', path: 'plugins/discourse'
 group :development do
   gem 'sqlite3'
   gem 'mailcatcher'
-  gem 'web-console', '~> 2.0'
+  gem 'web-console', '~> 2.3', '>= 2.3.0'
 
   # allow to use `debugger` https://github.com/conradirwin/pry-rescue
   gem 'pry-rescue'
@@ -78,7 +78,7 @@ group :development do
   gem 'binding_of_caller'
   # gem "rails-i18n-debug"
   # chrome debugging extension https://github.com/dejan/rails_panel
-  gem 'meta_request'
+  gem 'meta_request', '>= 0.5.0'
 
   # Get infos when not using proper eager loading
   gem 'bullet'
@@ -92,11 +92,11 @@ group :development, :test do
 end
 
 group :test do
-  gem 'rspec-rails'
-  gem 'factory_bot_rails'
+  gem 'rspec-rails', '>= 3.7.1'
+  gem 'factory_bot_rails', '>= 4.8.2'
   gem 'faker'
   gem 'capybara'
-  gem 'capybara-webkit'
+  gem 'capybara-webkit', '>= 1.14.0'
   gem 'database_cleaner'
   gem 'connection_pool'
   # need to include rspec components before i18n-spec or rake fails in test environment
@@ -104,6 +104,6 @@ group :test do
   gem 'rspec-rerun'
   gem 'i18n-spec'
   # code coverage
-  gem 'simplecov', require: false
-  gem 'coveralls', require: false
+  gem 'simplecov', '>= 0.14.1', require: false
+  gem 'coveralls', '>= 0.8.21', require: false
 end
