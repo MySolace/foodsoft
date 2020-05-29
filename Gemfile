@@ -25,7 +25,7 @@ gem 'prawn'
 gem 'prawn-table'
 gem 'haml', '~> 4.0' # some breaking changes in version 5, remove this line again when fixed
 gem 'haml-rails'
-gem 'kaminari'
+gem 'kaminari', '>= 1.2.1'
 gem 'simple_form'
 gem 'inherited_resources'
 gem 'localize_input', git: "https://github.com/bennibu/localize_input.git"
