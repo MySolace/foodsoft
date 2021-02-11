@@ -1,7 +1,7 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
-gem "rails", '~> 4.2'
+gem "rails", "~> 6.0", ">= 6.0.3.5"
 
 
 gem 'sass-rails'
@@ -43,12 +43,12 @@ gem 'protected_attributes', '= 1.1.0' # 1.1.0 until tests work work with higher 
 gem 'ruby-units'
 gem 'attribute_normalizer'
 gem 'ice_cube'
-gem 'recurring_select'
+gem 'recurring_select', '>= 2.0.0'
 gem 'roo'
 gem 'roo-xls'
 gem 'spreadsheet'
 gem 'exception_notification'
-gem 'gaffe'
+gem 'gaffe', '>= 1.2.0'
 gem 'ruby-filemagic'
 gem 'midi-smtp-server'
 
