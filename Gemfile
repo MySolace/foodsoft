@@ -95,8 +95,8 @@ group :test do
   gem 'rspec-rails'
   gem 'factory_bot_rails'
   gem 'faker'
-  gem 'capybara'
-  gem 'capybara-webkit'
+  gem 'capybara', '>= 2.13.0'
+  gem 'capybara-webkit', '>= 1.14.0'
   gem 'database_cleaner'
   gem 'connection_pool'
   # need to include rspec components before i18n-spec or rake fails in test environment
